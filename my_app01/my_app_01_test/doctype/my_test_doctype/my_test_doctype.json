@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-10 14:32:53.834711",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name_column",
+  "text_sbhb",
+  "email",
+  "age"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name_column",
+   "fieldtype": "Column Break",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "text_sbhb",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-10 14:35:49.270634",
+ "modified_by": "Administrator",
+ "module": "My App 01 Test",
+ "name": "My Test DocType",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
